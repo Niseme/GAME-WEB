@@ -1,0 +1,19 @@
+@import "./styles/header.css";
+@import "./styles/game-title.css";
+@import './styles/content.css';
+@import "./styles/logo.css";
+@import "./styles/conept.css";
+
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Arvo';
+}
+
+/* @import "/styles/header.css"; */
+
+

@@ -1,0 +1,9 @@
+.game-title{
+    background-color: rgb(204, 192, 216);
+}
+.game-title h1{
+    line-height: 70px;
+    font-size: 50px;
+    font-weight: 700;
+   
+}

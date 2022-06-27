@@ -1,0 +1,25 @@
+.conept-arts h1{
+font-weight: 700;
+text-transform: uppercase;
+width: 188px;
+}
+.conept-arts .right-side li {
+    margin-bottom: 35px;
+}
+.conept-arts .right-side li:last-child {
+    margin-bottom: 0px;
+}
+.conept-arts .right-side a{
+text-decoration: none;
+text-transform: uppercase;
+color: black;
+}
+.conept-arts {
+    background-color: red;
+}
+
+.scroll .line-text{
+    text-transform: uppercase;
+    transform: rotate(90deg); 
+ 
+}
