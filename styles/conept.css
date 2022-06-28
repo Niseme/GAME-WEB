@@ -1,7 +1,19 @@
 .conept-arts h1{
+line-height: 2.5rem;
+font-size: 2.6em;
 font-weight: 700;
 text-transform: uppercase;
-width: 188px;
+text-align: right
+}
+
+.conept-arts img{
+    width: 100%;
+}
+
+
+/* right side */
+.socials {
+    margin-top: 10em;
 }
 .conept-arts .right-side li {
     margin-bottom: 35px;
@@ -18,8 +30,23 @@ color: black;
     background-color: red;
 }
 
-.scroll .line-text{
+.conept-scroll {
+    position: relative;
+    height: 40vh;
+}
+.conept-scroll .line-text{
     text-transform: uppercase;
-    transform: rotate(90deg); 
- 
+    transform: rotate(90deg);  
+    margin-top: 7rem;
+    
+}
+
+.v-line{
+    position: absolute;
+    border: 1px solid black; 
+    width: 70px; 
+    font-weight: 700;
+    left: 50%;
+    top: 91%;
+    transform:  translate(-50%, -50%) rotate(90deg)
 }
