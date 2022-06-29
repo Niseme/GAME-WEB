@@ -6,15 +6,22 @@ header .nav-color{
     color: #fff;
 }
 header .border-up{
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid black;
     width: 10%;
     margin-bottom: 3%;
     margin-right: 7%;
 
 }
 header .border-down {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid black;
     width: 10%;
     
 }
 
+ #triangle-up {
+     width: 0;
+     height: 0;
+     border-left: 50px solid transparent;
+     border-right: 50px solid transparent;
+     border-bottom: 100px solid red;
+ }
