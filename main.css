@@ -1,20 +1,27 @@
 @import "./styles/header.css";
 @import "./styles/game-title.css";
-@import './styles/content.css';
+@import "./styles/content.css";
 @import "./styles/logo.css";
 @import "./styles/conept.css";
 @import "./styles/main-bg.css";
 
-
 body,
 body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
-    font-family: 'Arvo';
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-family: "Arvo";
 }
 
 /* @import "/styles/header.css"; */
 
-
+.left.d-flex.flex-column.justify-content-between.h-100 {
+  background-color: rgb(204, 192, 216);
+}
+.right {
+  background-color: red;
+}
+.right img {
+  max-width: 100%;
+}
