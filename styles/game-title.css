@@ -1,11 +1,9 @@
-.game-title{
-    background-color: rgb(204, 192, 216);
-}
 .game-title h1{
     text-transform: uppercase;
     line-height: 70px;
     font-size: 70px;
     font-weight: 700;
-   /* text-align: left; */
-    /* word-spacing: 100vw; */
+   text-align: left;
+    word-spacing: 100vw;
+margin-top: 1em;
 }

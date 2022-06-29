@@ -5,3 +5,8 @@ text-transform: uppercase;
 font-weight: 700;
 word-spacing: 100vw;
 }
+@media (max-width: 768px) {
+    .col-md-6 {
+        padding-top: 100px;
+    }
+}
