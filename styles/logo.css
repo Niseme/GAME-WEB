@@ -1,3 +1,4 @@
+
 .game-axis-logo .awards{
 line-height: 1.2rem;
 font-size: 1.5em;
@@ -8,5 +9,13 @@ word-spacing: 100vw;
 @media (max-width: 768px) {
     .col-md-6 {
         padding-top: 100px;
+        color: #fff;
+    }
+
+    .game-axis-logo {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important;
     }
 }
+ 

@@ -48,3 +48,13 @@ color: black;
     top: 91%;
     transform:  translate(-50%, -50%) rotate(90deg)
 }
+
+@media (max-width: 768px) {
+    .conept-arts, .conept-arts .right-side a {
+        color: #fff;
+    }
+    .v-line{
+            border: 1px solid white;
+        }
+}
+
