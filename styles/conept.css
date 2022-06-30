@@ -10,7 +10,6 @@ text-align: right
     width: 100%;
 }
 
-
 /* right side */
 .socials {
     margin-top: 10em;
@@ -18,6 +17,11 @@ text-align: right
 .conept-arts .right-side li {
     margin-bottom: 35px;
 }
+
+.conept-arts .right-side a:hover {
+    color: #6f002e;
+}
+
 .conept-arts .right-side li:last-child {
     margin-bottom: 0px;
 }
@@ -27,16 +31,19 @@ text-transform: uppercase;
 color: black;
 }
 
-
 .conept-scroll {
     position: relative;
     height: 40vh;
 }
+
 .conept-scroll .line-text{
     text-transform: uppercase;
     transform: rotate(90deg);  
     margin-top: 7rem;
-    
+}
+
+.conept-scroll .line-text:hover {
+ color: #6f002e;
 }
 
 .v-line{
