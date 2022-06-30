@@ -15,7 +15,7 @@ body * {
   font-family: "Arvo";
 }
 
-/* @import "/styles/header.css"; */
+
 
 .left.d-flex.flex-column.justify-content-between.h-100 {
   background-color: rgb(204, 192, 216);
