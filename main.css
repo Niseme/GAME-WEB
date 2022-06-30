@@ -6,7 +6,8 @@
 @import "./styles/main-bg.css";
 @import "./styles/woman.css";
 @import './styles/carousel-container.css';
-@import './styles/mouse.css';
+@import './styles/games.css';
+@import './styles/footer.css';
 
 body,
 body * {
@@ -17,12 +18,4 @@ body * {
   font-family: "Arvo";
 }
 
-.left.d-flex.flex-column.justify-content-between.h-100 {
-  background-color: rgb(204, 192, 216);
-}
-.right {
-  background-color: red;
-}
-.right img {
-  max-width: 100%;
-}
+

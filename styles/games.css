@@ -1,0 +1,17 @@
+.game-choise{
+    background-color: #fff;
+    
+}
+.game-choise button{
+    background-color: #360c17;
+    text-decoration: none;
+}
+.game-choise button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.game-choise button:hover{
+background-color:#010101 ;
+}

@@ -13,6 +13,7 @@ const awards = document.querySelector('.awards')
 const lsideh1 = document.querySelector('.left-side-h1')
 const cornerimg = document.querySelector('.corner-picture')
 
+
 const tl = new TimelineMax();
 
 tl.fromTo(wom, 1.2, { height: "0%" }, { height: "80%", ease: Power2.easeInOut })
