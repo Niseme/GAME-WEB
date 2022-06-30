@@ -94,5 +94,12 @@ color: black;
     .v-line{
             border: 1px solid white;
         }
+    .conept-scroll{
+        display: none;
+    }
+    .socials li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
