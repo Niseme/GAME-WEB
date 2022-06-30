@@ -9,6 +9,10 @@ background-repeat: no-repeat;
         background-image: url("../img/main-bg-red.jpg");
         background-size: cover;
         background-repeat: repeat-y;
-       
+    }
+    
+    .container-fluid{
+        margin: 0;
+        padding: 0;
     }
 }
