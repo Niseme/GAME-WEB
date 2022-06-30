@@ -6,7 +6,7 @@
 @import "./styles/main-bg.css";
 @import "./styles/woman.css";
 @import './styles/carousel-container.css';
-
+@import './styles/mouse.css';
 
 body,
 body * {
@@ -16,7 +16,6 @@ body * {
   box-sizing: border-box;
   font-family: "Arvo";
 }
-
 
 .left.d-flex.flex-column.justify-content-between.h-100 {
   background-color: rgb(204, 192, 216);

@@ -48,12 +48,43 @@ color: black;
 
 .v-line{
     position: absolute;
-    border: 1px solid black; 
-    width: 70px; 
-    font-weight: 700;
+    border: 1px solid transparent; 
+    width: 7px; 
+    height: 100em;
     left: 50%;
-    top: 91%;
-    transform:  translate(-50%, -50%) rotate(90deg)
+    top: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3px;
+    text-align: center;
+    border-radius: 13em;
+}
+
+.v-line>.wheel {
+    display: inline-block;
+    width: 3em;
+    height: 50em;
+    background-color: black;
+    border-radius: 1.5em;
+    animation-name: scrolling;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes scrolling {
+    0% {
+        /* margin-top: 8em; */
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 1;
+    }
+
+    100% {
+        /* margin-top: 80em; */
+        opacity: 0;
+    }
 }
 
 @media (max-width: 768px) {

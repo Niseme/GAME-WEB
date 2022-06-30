@@ -1,0 +1,37 @@
+.mouse {
+    font-size: 1.3px;
+    display: inline-block;
+    width: 26em;
+    height: 40em;
+    text-align: center;
+    border: 2.5em solid #fff;
+    border-radius: 13em; 
+}
+
+.mouse>.wheel {
+    display: inline-block;
+    width: 3em;
+    height: 5em;
+    background-color: #fff;
+    margin-top: 8em;
+    border-radius: 1.5em;
+    animation-name: scrolling;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        margin-top: 8em;
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 1;
+    }
+
+    100% {
+        margin-top: 24em;
+        opacity: 0;
+    }
+}
