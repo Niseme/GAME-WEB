@@ -9,11 +9,18 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- style -->
     <link rel="stylesheet" href="./main.css">
     <title>Game web</title>
@@ -21,7 +28,8 @@
 </head>
 
 <body>
-    <div class="bg-red container-fluid">
+    <div class="container-fluid">
+        <div class="bg-red">
         <!-- Header start -->
         <section class="container-fluid">
             <header class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3
@@ -43,11 +51,10 @@
             </header>
         </section>
         <!-- Header end -->
-        
+
         <!-- Content start -->
         <div class="container content">
             <div class="row h-100">
-
                 <!-- first column start -->
                 <section class="col-md-3">
                     <div class="game-title d-flex flex-column justify-content-between h-100">
@@ -93,12 +100,35 @@
                                 <div class="v-line"></div>
                             </div>
                         </div>
-
                     </div>
                 </section>
             </div>
-            </section>
         </div>
+        </div>
+        <!-- Carousel start-->
+        <div class="container-fluid carousel-container pt-5 pb-5">
+            <div class="container">
+                <div class="row ">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="./img/carousel-img/1.jfif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./img/carousel-img/2.jfif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./img/carousel-img/3.jfif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./img/carousel-img/4.jfif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel end-->
+
     </div>
 
     <!-- JavaScript Bundle with Popper -->
@@ -115,6 +145,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
     <script src="app.js"></script>
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./owlCarousel.js"></script>
 </body>
 
 </html>

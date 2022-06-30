@@ -5,6 +5,8 @@
 @import "./styles/conept.css";
 @import "./styles/main-bg.css";
 @import "./styles/woman.css";
+@import './styles/carousel-container.css';
+
 
 body,
 body * {
